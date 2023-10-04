@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Form</h1>
+        </header>
+            <form action="" method="POST">
+
+                <input type="text" name="Name" placeholder="Full Name" value="" id="Name">
+                <input type="text" name="City" placeholder="City" value="" id="City">
+                <input type="text" name="Zip Code" placeholder="00000" value="" id="Zip Code">
+
+                <label for="Waiver">Disclaimer acknowledgement.</label>
+                <input type="checkbox" name="Confirmed" id="Waiver">
+
+                <label for="age">Age</label>
+                <select name="age" id="age">
+                    <option value="18-30">18-30</option>
+                    <option value="31-40">31-40</option>
+                    <option value="41-50">41-50</option>
+                    <option value="51+">51+</option>
+                </select>
+
+                <textarea name="Details" rows="5" cols="60" placeholder="Please type your request here."></textarea>
+
+                <input type="submit" value="Send">
+
+            </form>
+        <footer>
+            <p>Copyright 2023</p>
+        </footer>
+    </body>
+</html>
